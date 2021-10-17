@@ -1,0 +1,23 @@
+{
+  "name": "projeto-testes-funcionais-e2e-cypress",
+  "version": "1.0.0",
+  "description": "Criando testes funcionais e2e da Aplicação: Barriga React -> https://barrigareact.wcaquino.me/login",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cy:open": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenHurJF/Projeto-Testes-Funcionais-e2e-CYPRESS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenHurJF/Projeto-Testes-Funcionais-e2e-CYPRESS/issues"
+  },
+  "homepage": "https://github.com/BenHurJF/Projeto-Testes-Funcionais-e2e-CYPRESS#readme"
+}
