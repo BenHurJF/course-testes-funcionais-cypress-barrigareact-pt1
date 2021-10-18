@@ -4,11 +4,10 @@
   "description": "Criando testes funcionais e2e da Aplicação: Barriga React -> https://barrigareact.wcaquino.me/login",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^8.6.0"
-  },
-  "devDependencies": {
+    "cypress": "^8.6.0",
     "cypress-xpath": "^1.6.2"
   },
+  "devDependencies": {},
   "scripts": {
     "cy:open": "npx cypress open"
   },
