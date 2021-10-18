@@ -27,6 +27,7 @@ Como Usar:
 3- e no terminal esteja no caminho da pasta digite e tecle ENTER: npm install cypress
 
 4- adicione a pasta raiz um arquivo com nome: 'cypress.env.json', e nele adicione o seguinte trecho de código: 
+
 {
     "user_email": "Aqui vai o E-mail da conta que você criou no BarrigaReact",
     "user_senha": "Aqui sua senha"
