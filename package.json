@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "cy:open": "npx cypress open"
+    "tst": "npx cypress open"
   },
   "repository": {
     "type": "git",
