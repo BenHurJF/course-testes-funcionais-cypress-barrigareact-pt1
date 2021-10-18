@@ -28,8 +28,8 @@ Como Usar:
 
 4- adicione a pasta raiz um arquivo com nome: 'cypress.env.json', e nele adicione o seguinte trecho de código: 
 {
-    "user_email": "beiujeffer@hotmail.com",
-    "user_senha": 91150510
+    "user_email": "Aqui vai o E-mail da conta que você criou no BarrigaReact",
+    "user_senha": "Aqui sua senha"
 }
 
 5- por último para executar a interface do cypress digite e tecle ENTER: npm run tst
