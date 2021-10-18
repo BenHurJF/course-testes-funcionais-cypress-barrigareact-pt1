@@ -32,3 +32,10 @@ Cypress.Commands.add('LOGIN', (user, password) => {
     cy.get(loc.LOGIN.btnLogin).eq(0).click()
     cy.get(loc.LOGIN.MSG, {timeout:22000}).should('text', 'Bem vindo, Ben-Hur Jeffer!')
 })
+
+Cypress.Commands.add('ResetApp', () => {
+    cy.get(`a[class='nav-link dropdown-toggle']`).click()
+    cy.get('[href="/reset"]').click()
+    cy.get('.toast-message', {timeout:22000}).should('contain', 'Dados resetados com sucesso!')
+})
+   
