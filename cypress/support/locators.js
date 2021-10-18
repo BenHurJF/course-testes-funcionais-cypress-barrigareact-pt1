@@ -5,12 +5,24 @@ const locators = {
         btnLogin: 'button[type="submit"]',
         MSG: '.toast-message'
     },
+    ALTERAR: {
+        FN_XP_ALTERCONTA: name => `//table//td[contains(.,'${name}')]/..//i[@class='far fa-edit']`
+    },
     MOVIMENTACAO: {
         DESCRICAO: '[data-test=descricao]',
         VALOR: '[data-test=valor]',
         INTERESSADO: '[data-test=envolvido]',
-        BTN_SALVAR: '.btn-primary'
-
+        CONTA: '[data-test=conta]',
+        BTN_SALVAR: '.btn-primary',
+    },
+    EXTRATO: {
+        FN_XP_ASSERT_DESC: DESC => `//li//span[contains(.,'${DESC}')]`,
+        FN_XP_ASSERT_VALUE: value => `//li//span[contains(.,'Descrição para TESTE E2E')]/following-sibling::small[contains(.,'${value}')]`,
+        FN_XP_REMOVER_ELEMENTO: conta => ''
+    },
+    SALDO: {
+        HOME: '[data-test=menu-home]',
+        FN_XP_SALDO_CONTA: nome => `//td[contains(.,'${nome}')]/../td[2]`
     }
 
 }
