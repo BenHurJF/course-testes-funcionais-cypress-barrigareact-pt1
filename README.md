@@ -1,4 +1,4 @@
-# Projeto-Testes-Funcionais-e2e-CYPRESS
+# Testes-funcionais-e2e-cypress
 - Testes funcionais e2e da Aplicação Barriga React: https://barrigareact.wcaquino.me/login
 
 # Cénarios de testes
